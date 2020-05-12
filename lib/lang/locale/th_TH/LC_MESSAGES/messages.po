@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-23 22:31+0700\n"
-"PO-Revision-Date: 2020-05-12 22:07+0700\n"
+"PO-Revision-Date: 2020-05-12 22:49+0700\n"
 "Last-Translator: Popboon Mahachanawong <m.popboon@gmail.com>\n"
 "Language-Team: Prasittichai Lertratanakehakran <eak.pras@hotmail.com>\\Popboon Mahachanawong <m.popboon@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -207,17 +207,17 @@ msgstr "ภาษา"
 #: template/lightweight/detail_template.php:48
 #: template/green/detail_template.php:48
 msgid "Publisher"
-msgstr "ผู้จัดทำ"
+msgstr "สำนักพิมพ์"
 
 #: template/lightweight/detail_template.php:52
 #: template/green/detail_template.php:52
 msgid "Publishing Year"
-msgstr "ปีที่จัดทำ"
+msgstr "ปีที่พิมพ์"
 
 #: template/lightweight/detail_template.php:56
 #: template/green/detail_template.php:56
 msgid "Publishing Place"
-msgstr "สถานที่จัดทำ"
+msgstr "สถานที่พิมพ์"
 
 #: template/lightweight/detail_template.php:64
 #: template/green/detail_template.php:64
@@ -258,7 +258,7 @@ msgstr "เลือกภาษา"
 
 #: template/green/index_template.inc.php:60
 msgid "Simple Search"
-msgstr "สืบค้นแบบง่าย"
+msgstr "สืบค้น"
 
 #: template/green/index_template.inc.php:68
 msgid "Advanced Search"
@@ -776,9 +776,8 @@ msgid "Authors"
 msgstr "ผู้แต่ง"
 
 #: admin/modules/bibliography/z3950.php:338
-#, fuzzy
 msgid "* Please make sure you have a working Internet connection."
-msgstr "* Pastikan anda memiliki koneksi Internet yang bekerja."
+msgstr "โปรดเช็คว่าสัญญาณอินเตอร์เน็ตของท่านใช้งานได้ปกติ"
 
 #: admin/modules/bibliography/index.php:57
 msgid "Title can not be empty"
@@ -968,7 +967,7 @@ msgstr "รายละเอียด/ชื่อ"
 #: admin/modules/circulation/fines_list.php:163
 #: admin/modules/circulation/fines_list.php:184
 msgid "Debit"
-msgstr "รายการ"
+msgstr "เดบิต"
 
 #: admin/modules/circulation/fines_list.php:165
 #: admin/modules/circulation/fines_list.php:185
@@ -1407,13 +1406,13 @@ msgstr "เพิ่มรายการสถานที่จัดทำ"
 
 #: admin/modules/master_file/place.php:118
 msgid "Place List"
-msgstr "รายการสถานที่จัดทำ"
+msgstr "รายการสถานที่"
 
 #: admin/modules/master_file/place.php:160
 #: admin/modules/master_file/place.php:177
 #: admin/modules/master_file/place.php:180
 msgid "Place Name"
-msgstr "Nama-nama Tempat"
+msgstr "ชื่อสถานที่"
 
 #: admin/modules/master_file/place.php:164
 msgid "You are going to edit place data"

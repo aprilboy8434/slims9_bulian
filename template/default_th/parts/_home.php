@@ -25,37 +25,37 @@
 </section>
 
 <section class="mt-5 container">
-    <h4 class="text-secondary text-center text-thin mt-5 mb-4">Select the topic you are interested in</h4>
+    <h4 class="text-secondary text-center text-thin mt-5 mb-4">เลือกหัวข้อที่คุณสนใจ</h4>
     <ul class="topic d-flex flex-wrap justify-content-center px-0">
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="index.php?callnumber=8&search=search" class="d-flex flex-column">
                 <img src="<?php echo assets('images/8-books.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                literature
+                วรรณกรรม
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="index.php?callnumber=3&search=search" class="d-flex flex-column">
                 <img src="<?php echo assets('images/3-diploma.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                social sciences
+                สังคมศาสตร์
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="index.php?callnumber=6&search=search" class="d-flex flex-column">
                 <img src="<?php echo assets('images/6-blackboard.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                applied sciences
+                วิทยาศาสตร์
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="index.php?callnumber=7&search=search" class="d-flex flex-column">
                 <img src="<?php echo assets('images/7-quill.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                art and recreation
+                ศิลปะและนันทนาการ
             </a>
         </li>
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="javascript:void(0)" class="d-flex flex-column" data-toggle="modal" data-target="#exampleModal">
                 <img src="<?php echo assets('images/icon/grid_icon.png'); ?>" width="80"
                      class="mb-3 mx-auto"/>
-                see more.
+                อื่นๆ .
             </a>
         </li>
     </ul>

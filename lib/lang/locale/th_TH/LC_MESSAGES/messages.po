@@ -3,18 +3,18 @@ msgstr ""
 "Project-Id-Version: Senayan3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-23 22:31+0700\n"
-"PO-Revision-Date: 2010-04-24 10:23+0700\n"
-"Last-Translator: sss <sss>\n"
-"Language-Team: Prasittichai Lertratanakehakran <eak.pras@hotmail.com>\n"
+"PO-Revision-Date: 2020-05-12 22:07+0700\n"
+"Last-Translator: Popboon Mahachanawong <m.popboon@gmail.com>\n"
+"Language-Team: Prasittichai Lertratanakehakran <eak.pras@hotmail.com>\\Popboon Mahachanawong <m.popboon@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-Language: Indonesian\n"
-"X-Poedit-Country: INDONESIA\n"
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-KeywordsList: __;_ngettext:1,2\n"
-"X-Poedit-Basepath: ../../../../../\n"
+"X-Poedit-Basepath: ../../../../..\n"
+"Language: th_TH\n"
+"X-Generator: Poedit 2.3.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: sysconfig.inc.php:320
@@ -75,7 +75,7 @@ msgstr "บรรณาธิการ"
 
 #: sysconfig.inc.php:338
 msgid "Producer"
-msgstr "ผู้ผลิต "
+msgstr "ผู้ผลิต"
 
 #: sysconfig.inc.php:339
 msgid "Composer"
@@ -95,7 +95,7 @@ msgstr "ผู้เผยแพร่"
 
 #: index.php:37
 msgid "Web Online Public Access Catalog - Use the search options to find documents quickly"
-msgstr "ระบบสืบค้นรายการออนไลน์ "
+msgstr "ระบบสืบค้นรายการออนไลน์"
 
 #: index.php:46
 msgid "You are currently Logged on as member"
@@ -104,6 +104,14 @@ msgstr "คุณกำลังอยู่ในระบบ"
 #: index.php:46
 msgid "LOGOUT"
 msgstr "ออกจากระบบ"
+
+#: template/default/parts/_navbar.php
+msgid "Information"
+msgstr "เกี่ยวกับห้องสมุด"
+
+#: template/default/parts/_navbar.php
+msgid "News"
+msgstr "ข่าวสาร"
 
 #: template/lightweight/index_template.inc.php:20
 #: template/green/index_template.inc.php:26
@@ -189,7 +197,7 @@ msgstr "หมวดหมู่"
 #: template/green/index_template.inc.php:78
 #: template/green/detail_template.php:40
 msgid "GMD"
-msgstr "ประเภทวัสดุ/มีเดีย "
+msgstr "ประเภทวัสดุ/มีเดีย"
 
 #: template/lightweight/detail_template.php:44
 #: template/green/detail_template.php:44
@@ -298,7 +306,7 @@ msgstr "นำข้อมูลออก"
 
 #: admin/modules/bibliography/import.php:217
 msgid "Import for bibliographics data from CSV file. For guide on CVS fields order and format please refer to documentation or visit <a href=\"http://senayan.diknas.go.id\" target=\"_blank\">Official Website</a>"
-msgstr "นำเข้าข้อมูลบรรณานุกรมจากเอกสาร CVS "
+msgstr "นำเข้าข้อมูลบรรณานุกรมจากเอกสาร CVS"
 
 #: admin/modules/bibliography/import.php:225
 msgid "Import Now"
@@ -483,7 +491,7 @@ msgstr "รหัสสินค้า"
 
 #: admin/modules/bibliography/item.php:285
 msgid "Shelf Location"
-msgstr "ที่ตั้ง/สถานที่ "
+msgstr "ที่ตั้ง/สถานที่"
 
 #: admin/modules/bibliography/item.php:297
 msgid "Available"
@@ -807,9 +815,7 @@ msgstr "ลบรายการข้อมูลทั้งหมดสำเ
 
 #: admin/modules/bibliography/index.php:254
 #, fuzzy
-msgid ""
-"Some or All Data NOT deleted successfully!\\n"
-"Please contact system administrator"
+msgid "Some or All Data NOT deleted successfully!\\nPlease contact system administrator"
 msgstr ""
 "Sebagian atau semua data GAGAL dihapus!\n"
 "Hubungi admin sistem untuk pemecahannya"
@@ -998,7 +1004,7 @@ msgstr "คืนทรัพยากรสารสนเทศอย่าง
 #: admin/modules/circulation/submenu.php:26
 #: admin/modules/circulation/loan_rules.php:117
 msgid "Loan Rules"
-msgstr "สิทธิการยืม"
+msgstr "กฏการยืม"
 
 #: admin/modules/circulation/submenu.php:26
 msgid "View and Modify Circulation Loan Rules"
@@ -1060,7 +1066,7 @@ msgstr "ระบบคืนถูกระงับ"
 
 #: admin/modules/circulation/quick_return.php:47
 msgid "Insert an item ID to return collection with keyboard or barcode reader"
-msgstr "ใส่ตัวเลขรหัสบาร์โค้ด หรือใช้ยิงบาร์โค๊ด "
+msgstr "ใส่ตัวเลขรหัสบาร์โค้ด หรือใช้ยิงบาร์โค๊ด"
 
 #: admin/modules/circulation/quick_return.php:50
 msgid "Item ID"
@@ -1153,7 +1159,7 @@ msgstr "วันที่ทำการจอง"
 
 #: admin/modules/circulation/reserve_list.php:105
 msgid "ALREADY EXPIRED"
-msgstr "หมดอายุ"
+msgstr "หมดอายุแล้ว"
 
 #: admin/modules/circulation/loan_list.php:50
 msgid "Are you sure you want to return the item"
@@ -1208,7 +1214,7 @@ msgstr "วันที่คืน"
 
 #: admin/modules/circulation/index.php:48
 msgid "CIRCULATION - Insert a member ID to start transaction with keyboard or barcode reader"
-msgstr "งาน ยืม - คืน  กรุณาใส่รหัสสมาชิกหรือยิงบาร์โค้ด "
+msgstr "งาน ยืม - คืน  กรุณาใส่รหัสสมาชิกหรือยิงบาร์โค้ด"
 
 #: admin/modules/circulation/index.php:66
 msgid "Transaction with member {member_id} is completed"
@@ -1251,7 +1257,7 @@ msgstr "กรุณารอ รายการตัวเล่มถูก�
 
 #: admin/modules/circulation/circulation_action.php:154
 msgid "This Item is not registered in database"
-msgstr ""
+msgstr "รายการนี้ยังไม่ลงทะเบียนบนฐานข้อมูล"
 
 #: admin/modules/circulation/circulation_action.php:159
 msgid "This Item is currently not available"
@@ -1501,7 +1507,7 @@ msgstr "รายการผู้จัดจำหน่าย"
 #: admin/modules/master_file/supplier.php:195
 #: admin/modules/master_file/supplier.php:201
 msgid "Supplier Name"
-msgstr "ชื่อผู้จัดจำหน่ายr"
+msgstr "ชื่อผู้จัดจำหน่าย"
 
 #: admin/modules/master_file/supplier.php:170
 msgid "Address"
@@ -1572,7 +1578,7 @@ msgstr "โค้ดภาษา"
 
 #: admin/modules/master_file/doc_language.php:168
 msgid "You are going to edit language data"
-msgstr "แก้ไขข้อมูลภาษา "
+msgstr "แก้ไขข้อมูลภาษา"
 
 #: admin/modules/master_file/submenu.php:24
 msgid "General Material Designation"
@@ -1621,9 +1627,8 @@ msgid "No Loan Transaction"
 msgstr "ไม่สามารถยืมได้"
 
 #: admin/modules/master_file/item_status.php:44
-#, fuzzy
 msgid "Skipped By Stock Take"
-msgstr "Inventarisasi Koleksi"
+msgstr "ข้ามการตรวจสอบ"
 
 #: admin/modules/master_file/item_status.php:52
 msgid "Item Status ID and Name can't be empty"
@@ -1663,7 +1668,7 @@ msgstr "ชื่อสถานะรายการตัวเล่ม"
 
 #: admin/modules/master_file/item_status.php:198
 msgid "Rules"
-msgstr "Peraturannya"
+msgstr "กฏ"
 
 #: admin/modules/master_file/item_status.php:202
 msgid "You are going to edit Item Status data"
@@ -1807,7 +1812,7 @@ msgstr "เพิ่มรายการผู้จัดทำใหม่"
 
 #: admin/modules/master_file/publisher.php:118
 msgid "Publisher List"
-msgstr "Daftar Penerbit"
+msgstr "รายการผู้จัดทำ"
 
 #: admin/modules/master_file/publisher.php:160
 #: admin/modules/master_file/publisher.php:178
@@ -1921,7 +1926,7 @@ msgstr "แก้ไขข้อมูลกำหนดเวลาออก"
 
 #: admin/modules/master_file/index.php:51
 msgid "GMD Code And Name can't be empty"
-msgstr "ไม่มีประเภทวัสดุ/มีเดีย "
+msgstr "ไม่มีประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/master_file/index.php:70
 msgid "GMD Data Successfully Updated"
@@ -1941,27 +1946,27 @@ msgstr "มีข้อผิดพลาดไม่สามารถบัน
 
 #: admin/modules/master_file/index.php:121
 msgid "Add New GMD"
-msgstr "เพิ่มประเภทวัสดุ/มีเดีย "
+msgstr "เพิ่มประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/master_file/index.php:122
 msgid "GMD List"
-msgstr "รายการประเภทวัสดุ/มีเดีย "
+msgstr "รายการประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/master_file/index.php:164
 #: admin/modules/master_file/index.php:183
 #: admin/modules/master_file/index.php:187
 msgid "GMD Code"
-msgstr "รหัสประเภทวัสดุ/มีเดีย "
+msgstr "รหัสประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/master_file/index.php:166
 #: admin/modules/master_file/index.php:184
 #: admin/modules/master_file/index.php:188
 msgid "GMD Name"
-msgstr "ชื่อประเภทวัสดุ/มีเดีย "
+msgstr "ชื่อประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/master_file/index.php:170
 msgid "You are going to edit gmd data"
-msgstr "แก้ไขข้อมูลประเภทวัสดุ/มีเดีย "
+msgstr "แก้ไขข้อมูลประเภทวัสดุ/มีเดีย"
 
 #: admin/modules/reporting/submenu.php:23
 msgid "Reporting"
@@ -2086,13 +2091,11 @@ msgstr "พิมพ์หน้าปัจจุบัน"
 msgid "Total Titles"
 msgstr "ชื่อเรื่องทั้งหมด"
 
-#: admin/modules/reporting/index.php:54
-#: admin/modules/reporting/index.php:64
+#: admin/modules/reporting/index.php:54 admin/modules/reporting/index.php:64
 msgid "Total Items/Copies"
 msgstr "รายการตัวเล่มทั้งหมด"
 
-#: admin/modules/reporting/index.php:61
-#: admin/modules/reporting/index.php:64
+#: admin/modules/reporting/index.php:61 admin/modules/reporting/index.php:64
 msgid "Total Checkout Items"
 msgstr "รายการยืมตัวเล่มทั้งหมด"
 
@@ -2859,7 +2862,7 @@ msgstr "ปิด"
 
 #: admin/modules/serial_control/index.php:87
 msgid "Serial Title"
-msgstr "ชื่อวารสารและสิ่งพิมพ์ต่อเนื่อง "
+msgstr "ชื่อวารสารและสิ่งพิมพ์ต่อเนื่อง"
 
 #: admin/modules/stock_take/st_upload.php:40
 msgid "NO stock taking proccess initialized yet!"
@@ -2870,7 +2873,7 @@ msgid "Succesfully upload stock take file"
 msgstr "อัพโหลดเอกสารการตรวจสอบทรัพยากรสำเร็จ"
 
 #: admin/modules/stock_take/st_upload.php:83
-msgid " item codes scanned!"
+msgid "item codes scanned!"
 msgstr "ตรวจสอบรหัสรายการตัวเล่ม"
 
 #: admin/modules/stock_take/st_upload.php:101
@@ -2878,7 +2881,7 @@ msgid "STOCK TAKE UPLOAD - Upload a plain text file (.txt) containing list of It
 msgstr "อัพโหลดรายการตรวจสอบทรัพยากร"
 
 #: admin/modules/stock_take/st_upload.php:103
-msgid " File"
+msgid "File"
 msgstr "เอกสาร"
 
 #: admin/modules/stock_take/st_upload.php:104
@@ -2978,9 +2981,7 @@ msgstr "กำลังทำการตรวจสอบรายการต
 
 #: admin/modules/stock_take/init.php:131
 #, fuzzy
-msgid ""
-"Stock Taking FAILED to Initialized.\\n"
-"No item to stock take!"
+msgid "Stock Taking FAILED to Initialized.\\nNo item to stock take!"
 msgstr ""
 "GAGAL Inisialisasi Inventarisasi Koleksi.\n"
 "Tidak ada item untuk di inventarisasi!"
@@ -3051,14 +3052,12 @@ msgid "items already checked"
 msgstr "ตัวเล่มตรวจเสร็จเรียบร้อย"
 
 #: admin/modules/stock_take/st_report.php:99
-#: admin/modules/stock_take/index.php:60
-#: admin/modules/stock_take/index.php:109
+#: admin/modules/stock_take/index.php:60 admin/modules/stock_take/index.php:109
 msgid "Start Date"
 msgstr "เริ่มต้นวันที่"
 
 #: admin/modules/stock_take/st_report.php:101
-#: admin/modules/stock_take/index.php:61
-#: admin/modules/stock_take/index.php:110
+#: admin/modules/stock_take/index.php:61 admin/modules/stock_take/index.php:110
 msgid "End Date"
 msgstr "ถึงวันที่"
 
@@ -3097,13 +3096,11 @@ msgstr "ผู้ทำการเริ่มต้น"
 msgid "Total Item Exists"
 msgstr "ผลรวมรายการตัวเล่มยังคงอยู่"
 
-#: admin/modules/stock_take/index.php:68
-#: admin/modules/stock_take/index.php:83
+#: admin/modules/stock_take/index.php:68 admin/modules/stock_take/index.php:83
 msgid "Status"
 msgstr "สถานะ"
 
-#: admin/modules/stock_take/index.php:69
-#: admin/modules/stock_take/index.php:111
+#: admin/modules/stock_take/index.php:69 admin/modules/stock_take/index.php:111
 msgid "Report"
 msgstr "รายงาน"
 
@@ -3159,8 +3156,7 @@ msgstr "บันทึกเพิ่มวันหยุดสำเร็จ
 msgid "Holiday FAILED to Save. Please Contact System Administrator"
 msgstr "มีข้อผิดพลาดไม่สามารถบันทึกวันหยุดได้"
 
-#: admin/modules/system/holiday.php:150
-#: admin/modules/system/submenu.php:35
+#: admin/modules/system/holiday.php:150 admin/modules/system/submenu.php:35
 msgid "Holiday Setting"
 msgstr "ตั้งค่าวันหยุด"
 
@@ -3176,8 +3172,7 @@ msgstr "วันหยุดพิเศษ"
 msgid "Add Special holiday"
 msgstr "เพิ่มวันหยุดพิเศษ"
 
-#: admin/modules/system/holiday.php:187
-#: admin/modules/system/holiday.php:211
+#: admin/modules/system/holiday.php:187 admin/modules/system/holiday.php:211
 #: admin/modules/system/holiday.php:215
 msgid "Holiday Date Start"
 msgstr "เริ่ม"
@@ -3186,8 +3181,7 @@ msgstr "เริ่ม"
 msgid "Holiday Date End"
 msgstr "สิ้นสุด"
 
-#: admin/modules/system/holiday.php:193
-#: admin/modules/system/holiday.php:212
+#: admin/modules/system/holiday.php:193 admin/modules/system/holiday.php:212
 #: admin/modules/system/holiday.php:216
 msgid "Holiday Description"
 msgstr "รายละเอียดวันหยุด"
@@ -3196,8 +3190,7 @@ msgstr "รายละเอียดวันหยุด"
 msgid "You are going to edit holiday data"
 msgstr "แก้ไขข้อมูลวันหยุด"
 
-#: admin/modules/system/holiday.php:210
-#: admin/modules/system/holiday.php:214
+#: admin/modules/system/holiday.php:210 admin/modules/system/holiday.php:214
 msgid "Day name"
 msgstr "ชื่อ"
 
@@ -3253,13 +3246,11 @@ msgstr "ตั้งค่าระบบ"
 msgid "Configure Global System Preferences"
 msgstr "ปรับปรุงการตั้งค่าระบบ"
 
-#: admin/modules/system/submenu.php:28
-#: admin/modules/system/content.php:131
+#: admin/modules/system/submenu.php:28 admin/modules/system/content.php:131
 msgid "Content"
 msgstr "เนื้อหา"
 
-#: admin/modules/system/submenu.php:31
-#: admin/modules/system/module.php:136
+#: admin/modules/system/submenu.php:31 admin/modules/system/module.php:136
 msgid "Modules"
 msgstr "โมดูล"
 
@@ -3267,8 +3258,7 @@ msgstr "โมดูล"
 msgid "Configure Application Modules"
 msgstr "ปรับปรุงส่วนโมดูล"
 
-#: admin/modules/system/submenu.php:32
-#: admin/modules/system/app_user.php:160
+#: admin/modules/system/submenu.php:32 admin/modules/system/app_user.php:160
 msgid "System Users"
 msgstr "ผู้ใช้งานระบบ"
 
@@ -3276,8 +3266,7 @@ msgstr "ผู้ใช้งานระบบ"
 msgid "Manage Application User or Library Staff"
 msgstr "จัดการส่วนผู้ใช้งานระบบ"
 
-#: admin/modules/system/submenu.php:33
-#: admin/modules/system/user_group.php:159
+#: admin/modules/system/submenu.php:33 admin/modules/system/user_group.php:159
 msgid "User Group"
 msgstr "กลุ่มผู้ใช้งานระบบ"
 
@@ -3294,8 +3283,7 @@ msgstr "ตั้งค่าวันหยุด"
 msgid "Barcode Generator"
 msgstr "สร้างบาร์โค้ด"
 
-#: admin/modules/system/submenu.php:37
-#: admin/modules/system/sys_log.php:68
+#: admin/modules/system/submenu.php:37 admin/modules/system/sys_log.php:68
 msgid "System Log"
 msgstr "การเข้าใช้งานระบบ"
 
@@ -3303,8 +3291,7 @@ msgstr "การเข้าใช้งานระบบ"
 msgid "View Application System Log"
 msgstr "แสดงการเข้าใช้ระบบ"
 
-#: admin/modules/system/submenu.php:38
-#: admin/modules/system/backup.php:41
+#: admin/modules/system/submenu.php:38 admin/modules/system/backup.php:41
 msgid "Database Backup"
 msgstr "สำรองฐานข้อมูล"
 
@@ -3385,8 +3372,7 @@ msgstr "เพิ่มโมดูล"
 msgid "Modules List"
 msgstr "รายการโมดูล"
 
-#: admin/modules/system/module.php:176
-#: admin/modules/system/module.php:196
+#: admin/modules/system/module.php:176 admin/modules/system/module.php:196
 #: admin/modules/system/module_priv_form.inc.php:26
 msgid "Module Name"
 msgstr "ชื่อโมดูล"
@@ -3395,8 +3381,7 @@ msgstr "ชื่อโมดูล"
 msgid "Module Path"
 msgstr "พาธโมดูล"
 
-#: admin/modules/system/module.php:180
-#: admin/modules/system/module.php:197
+#: admin/modules/system/module.php:180 admin/modules/system/module.php:197
 msgid "Module Description"
 msgstr "รายละเอียด"
 
@@ -3444,8 +3429,7 @@ msgstr "กลุ่มผู้ใช้งานระบบ"
 msgid "You are going to edit user profile"
 msgstr "แก้ไขข้อมูลผู้ใช้ระบบ"
 
-#: admin/modules/system/app_user.php:261
-#: admin/modules/system/app_user.php:266
+#: admin/modules/system/app_user.php:261 admin/modules/system/app_user.php:266
 msgid "Last Login"
 msgstr "เข้าใช้ระบบล่าสุด"
 
@@ -3477,14 +3461,12 @@ msgstr "เพิ่มเนื้อหาใหม่"
 msgid "Content List"
 msgstr "รายการเนื้อหา"
 
-#: admin/modules/system/content.php:175
-#: admin/modules/system/content.php:208
+#: admin/modules/system/content.php:175 admin/modules/system/content.php:208
 #: admin/modules/system/content.php:212
 msgid "Content Title"
 msgstr "ชื่อเนิ้อหา"
 
-#: admin/modules/system/content.php:177
-#: admin/modules/system/content.php:209
+#: admin/modules/system/content.php:177 admin/modules/system/content.php:209
 #: admin/modules/system/content.php:213
 msgid "Path (Must be unique)"
 msgstr "พาธ"
@@ -3727,12 +3709,12 @@ msgstr "หน้าแรก"
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:113
 #: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:109
 msgid "Previous"
-msgstr "หน้าก่อนนี้ "
+msgstr "หน้าก่อนนี้"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:134
 #: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:130
 msgid "Next"
-msgstr " หน้าถัดไป"
+msgstr "หน้าถัดไป"
 
 #: simbio2/simbio_GUI/paging/simbio_paging.inc.php:142
 #: simbio2/simbio_GUI/paging/simbio_paging_ajax.inc.php:138
@@ -3751,8 +3733,7 @@ msgstr "ยกเลิก"
 msgid "Date"
 msgstr "วันที่"
 
-#: lib/admin_logon.inc.php:64
-#: lib/member_logon.inc.php:59
+#: lib/admin_logon.inc.php:64 lib/member_logon.inc.php:59
 msgid "Error authenticating user and password to database"
 msgstr "มีข้อมูลผิดพลาด"
 
@@ -3772,8 +3753,7 @@ msgstr "ไม่มีตัวเล่ม"
 msgid "copies at"
 msgstr "รายการอยู่ ที่"
 
-#: lib/biblio_list.inc.php:333
-#: lib/biblio_list.inc.php:354
+#: lib/biblio_list.inc.php:333 lib/biblio_list.inc.php:354
 msgid "Record Detail"
 msgstr "รายละเอียดบรรณานุกรม"
 
@@ -3825,8 +3805,7 @@ msgstr "รหัสผ่านปัจจุบัน"
 msgid "Confirm Password"
 msgstr "ยืนยันรหัสผ่าน"
 
-#: lib/contents/member.inc.php:112
-#: lib/contents/member.inc.php:278
+#: lib/contents/member.inc.php:112 lib/contents/member.inc.php:278
 msgid "Change Password"
 msgstr "เปลี่ยนรหัสผ่าน"
 
@@ -3870,8 +3849,7 @@ msgstr "รายละเอียดสมาชิก"
 msgid "Your Current Loan"
 msgstr "ปัจจุบันคุณยืม"
 
-#: lib/contents/default.inc.php:100
-#: lib/contents/default.inc.php:111
+#: lib/contents/default.inc.php:100 lib/contents/default.inc.php:111
 msgid "Found  <strong>{biblio_list->num_rows}</strong> from your keywords"
 msgstr "พบ  <strong>{biblio_list->num_rows}</strong> รายการ จากคำค้น"
 
@@ -3901,11 +3879,11 @@ msgstr "ยินดีต้อนรับเข้าสู่การใช
 
 #: lib/contents/login.inc.php:72
 msgid "Wrong Username or Password. ACCESS DENIED"
-msgstr "ใส่ข้อมูลผู้ใช้ รหัสผ่านไม่ถูกต้อง "
+msgstr "ใส่ข้อมูลผู้ใช้ รหัสผ่านไม่ถูกต้อง"
 
 #: lib/contents/login.inc.php:84
 msgid "Your browser does not support Javascript or Javascript is disabled. Application won't run without Javascript!"
-msgstr "เว็บเบราเซอร์ไม่สนับสนุนการใช้ จาวาสคริปต์ "
+msgstr "เว็บเบราเซอร์ไม่สนับสนุนการใช้ จาวาสคริปต์"
 
 #: lib/contents/attachment_list.php:48
 msgid "No Attachment"
@@ -3921,150 +3899,194 @@ msgstr "ไม่อยู่"
 
 #~ msgid "Member E-Mail"
 #~ msgstr "E-mail Anggota"
+
 #~ msgid "Bibliography"
 #~ msgstr "Katalog"
-#~ msgid ""
-#~ "<strong>{dompdf_libdir}</strong> directory is not writable. Make sure it "
-#~ "is writable (and all directories under it) by changing its permission or "
-#~ "application won't be able to generate pdf files."
-#~ msgstr ""
-#~ "Direktori <strong>{dompdf_libdir}</strong> tidak dapat ditulis. Pastikan "
-#~ "direktori ini bisa ditulis atau aplikasi tidak dapat membuat file PDF."
+
+#~ msgid "<strong>{dompdf_libdir}</strong> directory is not writable. Make sure it is writable (and all directories under it) by changing its permission or application won't be able to generate pdf files."
+#~ msgstr "Direktori <strong>{dompdf_libdir}</strong> tidak dapat ditulis. Pastikan direktori ini bisa ditulis atau aplikasi tidak dapat membuat file PDF."
+
 #~ msgid "Add New Kardex"
 #~ msgstr "Tambahkan Kardex"
+
 #~ msgid "cant be deleted because still have"
 #~ msgstr "tidak bisa dihapus karena masih memiliki"
+
 #~ msgid "Click for detail or edit this Record"
 #~ msgstr "Klik disini untuk detail atau perbaharuan rekod terkait"
+
 #~ msgid "Collection title must be set!"
 #~ msgstr "Judul koleksi harus dilengkapi!"
+
 #~ msgid "Collection Type ({item_name}) still used by {number_items} item(s)"
 #~ msgstr "Tipe koleksi {item_name} masih digunakan oleh {number_items} item"
+
 #~ msgid "ERROR! Data doesnt exists"
 #~ msgstr "ERROR! Data tidak ditemukan!"
+
 #~ msgid "Error! Fines data does not exists!"
 #~ msgstr "Error! Data denda tidak ditemukan!"
+
 #~ msgid "Error! Group data doesnt exists!"
 #~ msgstr "Error! Data Kelompok tidak ditemukan!"
+
 #~ msgid "Error! Holiday  data doesnt exists!"
 #~ msgstr "Error! Hari libur tidak ditemukan!"
+
 #~ msgid "Error! Loan Rules data doesnt exists!"
 #~ msgstr "Error! Data Peraturan Peminjaman tidak ditemukan!"
+
 #~ msgid "ERROR! Member Type data doesnt exists"
 #~ msgstr "ERROR! Data Tipe Keanggotaan tidak ditemukan"
+
 #~ msgid "Error! Module data doesnt exists!"
 #~ msgstr "Error! Data Modul tidak ditemukan!"
+
 #~ msgid "ERROR! Selected data doesn't exists"
 #~ msgstr "ERROR! Data terpilih tidak ditemukan"
+
 #~ msgid "Error! Subscription data does not exist!"
 #~ msgstr "Error! Data Berlangganan tidak ditemukan!"
+
 #~ msgid "Error! User data doesn't exists!"
 #~ msgstr "Error! Data Pengguna tidak ditemukan!"
+
 #~ msgid "File {file_d[0]} deleted"
 #~ msgstr "Berkas {file_d[0]} dihapus"
+
 #~ msgid "File {file_d[0]} FAIL to delete"
 #~ msgstr "Berkas {file_d[0]} TIDAK BISA dihapus"
+
 #~ msgid "File Attachment FAILED to upload"
 #~ msgstr "Lampiran Berkas GAGAL Diunggah"
+
 #~ msgid "File Attachment Uploaded Successfully"
 #~ msgstr "Lampiran Berkas Berhasil Diunggah"
+
 #~ msgid "GMD icon"
 #~ msgstr "Icon GMD"
+
 #~ msgid "GMD Successfully Deleted"
 #~ msgstr "Data GMD berhasil dihapus"
+
 #~ msgid "Group failed to delete"
 #~ msgstr "Kelompok pengguna GAGAL dihapus"
+
 #~ msgid "Group Successfully Deleted"
 #~ msgstr "Kelompok pengguna berhasil dihapus"
+
 #~ msgid "Holiday description cant be empty"
 #~ msgstr "Deskripi hari libur tidak boleh kosong"
+
 #~ msgid "Holiday failed to delete"
 #~ msgstr "Hari libur GAGAL dihapus"
+
 #~ msgid "Holiday Successfully Deleted"
 #~ msgstr "Hari libur berhasil dihapus"
+
 #~ msgid "is available"
 #~ msgstr "bisa dipinjam"
+
 #~ msgid "Item Data failed to delete"
 #~ msgstr "Item Data GAGAL dihapus"
+
 #~ msgid "Item Data Successfully Deleted"
 #~ msgstr "Item Data berhasil dihapus"
+
 #~ msgid "Item Status List"
 #~ msgstr "Daftar Status Koleksi"
+
 #~ msgid "Item(s) Data"
 #~ msgstr "Data Koleksi"
+
 #~ msgid "Kardex"
 #~ msgstr "Kardesk"
+
 #~ msgid "Label Image"
 #~ msgstr "Gambar Label"
+
 #~ msgid "Loan Rules FAIL To Delete"
 #~ msgstr "Peraturan Peminjaman GAGAL Dihapus"
+
 #~ msgid "Loan Rules Successfully Deleted"
 #~ msgstr "Peraturan Peminjaman Berhasil Dihapus"
+
 #~ msgid "Manage Kardex"
 #~ msgstr "Data Kardesk"
+
 #~ msgid "Member data"
 #~ msgstr "Data anggota"
+
 #~ msgid "Member Data failed to delete"
 #~ msgstr "Data Anggota gagal dihapus"
+
 #~ msgid "Member Data Successfully Deleted"
 #~ msgstr "Data Anggota Berhasil Dihapus"
+
 #~ msgid "Memeber(s) Having Overdue"
 #~ msgstr "Anggota Dengan Keterlambatan"
+
 #~ msgid "No File Attachment"
 #~ msgstr "Tidak Ada Berkas Terlampir"
+
 #~ msgid "No Image Available"
 #~ msgstr "Tidak ada gambar sampul"
+
 #~ msgid "No Place data yet"
 #~ msgstr "Belum ada tempat terbit"
+
 #~ msgid "Publisher Not Set Yet"
 #~ msgstr "Belum ada penerbit"
+
 #~ msgid "Record failed to delete"
 #~ msgstr "Rekod GAGAL dihapus"
+
 #~ msgid "Record Successfully Deleted"
 #~ msgstr "Cantuman Berhasil Dihapus"
+
 #~ msgid "Search Result"
 #~ msgstr "Hasil Pencarian"
+
 #~ msgid "Subject succesfully updated!"
 #~ msgstr "Subyek berhasil diperbaharui!"
-#~ msgid ""
-#~ "This Collection Type cant be deleted because still used by {item_d} "
-#~ "items. Delete Items data first"
+
+#~ msgid "This Collection Type cant be deleted because still used by {item_d} items. Delete Items data first"
+#~ msgstr "Tipe Koleksi ini tidak bisa dihapus karena masih diguanakan oleh {item_d} items. Hapus data item terlebih dahulu"
+
+#~ msgid "This Location cant be deleted because still used by {item_d} items. Delete Items data first"
 #~ msgstr ""
-#~ "Tipe Koleksi ini tidak bisa dihapus karena masih diguanakan oleh {item_d} "
-#~ "items. Hapus data item terlebih dahulu"
-#~ msgid ""
-#~ "This Location cant be deleted because still used by {item_d} items. "
-#~ "Delete Items data first"
-#~ msgstr ""
-#~ "Data Lokasi ini GAGAL dihapus karena masih digunakan oleh {item_d} item "
-#~ "dalam tabel\n"
+#~ "Data Lokasi ini GAGAL dihapus karena masih digunakan oleh {item_d} item dalam tabel\n"
 #~ "Hapus item terkait lebih dahulu"
-#~ msgid ""
-#~ "This title can not be deleted because still have {biblio_item} copies. "
-#~ "Delete Items data first"
-#~ msgstr ""
-#~ "Judul ini tidak bisa dihapus karena masih memiliki {biblio_item} item. "
-#~ "Hapus item terlebih dahulu"
+
+#~ msgid "This title can not be deleted because still have {biblio_item} copies. Delete Items data first"
+#~ msgstr "Judul ini tidak bisa dihapus karena masih memiliki {biblio_item} item. Hapus item terlebih dahulu"
+
 #~ msgid "unreturned items"
 #~ msgstr "pinjaman yang belum dikembalikan"
+
 #~ msgid "User failed to delete"
 #~ msgstr "Rekod Pengguna GAGAL dihapus"
+
 #~ msgid "User Successfully Deleted"
 #~ msgstr "Rekod Pengguna berhasil dihapus"
+
 #~ msgid "View Kardex"
 #~ msgstr "Lihat Data Kardex"
+
 #~ msgid "We have {copy} items/copies for this title"
 #~ msgstr "Perpustakaan memiliki {copy} kopi dari judul ini"
-#~ msgid ""
-#~ "We have {copy} items/copies for this title and ALL copies all currently "
-#~ "on loan"
+
+#~ msgid "We have {copy} items/copies for this title and ALL copies all currently on loan"
 #~ msgstr "Perpustakaan memiliki {copy} kopi dan SELURUHNYA sedang dipinjamkan"
+
 #~ msgid "You cannot supply a blank password!"
 #~ msgstr "Password tidak boleh kosong!"
+
 #~ msgid "Print Selected Data"
 #~ msgstr "Cetak data terpilih"
+
 #~ msgid "All"
 #~ msgstr "Semua"
+
 #~ msgid "List"
 #~ msgstr "Daftar"
-

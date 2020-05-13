@@ -12,7 +12,7 @@
     <div class="modal-dialog modal-lg" role="document">
         <form class="modal-content" action="index.php" method="get">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Advanced Search</h5>
+                <h5 class="modal-title" id="exampleModalLabel">ค้นหาอย่างละเอียด</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -21,46 +21,46 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-titles">Title</label>
+                            <label for="adv-titles">ชื่อหนังสือ</label>
                             <input type="text" name="title" class="form-control" id="adv-titles"
-                                   placeholder="Enter title">
+                                   placeholder="พิมพ์ชื่อหนังสือที่ต้องการค้นหา">
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-author">Author(s)</label>
+                            <label for="adv-author">ผู้แต่ง</label>
                             <input type="text" name="author" class="form-control" id="adv-author"
-                                   placeholder="Enter author(s) name">
+                                   placeholder="พิมพ์ชื่อผู้แต่งที่ต้องการค้นหา">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-subject">Subject(s)</label>
+                            <label for="adv-subject">หมวดหมู่(s)</label>
                             <input type="text" name="subject" class="form-control" id="adv-subject"
-                                   placeholder="Enter subject">
+                                   placeholder="พิมพ์หมวดหมู่ที่ต้องการค้นหา">
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group">
                             <label for="adv-isbn">ISBN/ISSN</label>
                             <input type="text" name="isbn" class="form-control" id="adv-isbn"
-                                   placeholder="Enter ISBN/ISSN">
+                                   placeholder="พิมพ์เลข ISBN/ISSN ที่ต้องการค้นหา">
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-coll-type">Collection Type</label>
+                            <label for="adv-coll-type">ประเภทคอลเลกชั่น</label>
                             <select name="colltype" class="form-control"
                                     id="adv-coll-type"><?php echo $colltype_list; ?></select>
                         </div>
                     </div>
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-location">Location</label>
+                            <label for="adv-location">สถานที่จัดเก็บ</label>
                             <select id="adv-location" name="location"
                                     class="form-control"> <?php echo $location_list; ?></select>
                         </div>
@@ -69,7 +69,7 @@
                 <div class="row">
                     <div class="col">
                         <div class="form-group">
-                            <label for="adv-gmd">GMD</label>
+                            <label for="adv-gmd">ประเภทของสื่อโสตทัศนวัสดุ</label>
                             <select id="adv-gmd" name="gmd" class="form-control"><?php echo $gmd_list; ?></select>
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="submit" name="search" value="search" class="btn btn-primary">Find Collection</button>
+                <button type="submit" name="search" value="search" class="btn btn-primary">ค้นหา</button>
             </div>
         </form>
     </div>

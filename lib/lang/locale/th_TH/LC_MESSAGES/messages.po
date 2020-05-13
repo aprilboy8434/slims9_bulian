@@ -1,16 +1,16 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Senayan3\n"
+"Project-Id-Version: Senayan9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-10-23 22:31+0700\n"
-"PO-Revision-Date: 2020-05-12 22:49+0700\n"
+"PO-Revision-Date: 2020-05-13 21:28+0700\n"
 "Last-Translator: Popboon Mahachanawong <m.popboon@gmail.com>\n"
 "Language-Team: Prasittichai Lertratanakehakran <eak.pras@hotmail.com>\\Popboon Mahachanawong <m.popboon@gmail.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_ngettext:1,2\n"
 "X-Poedit-Basepath: ../../../../..\n"
 "Language: th_TH\n"
@@ -813,11 +813,8 @@ msgid "All Data Successfully Deleted"
 msgstr "ลบรายการข้อมูลทั้งหมดสำเร็จ"
 
 #: admin/modules/bibliography/index.php:254
-#, fuzzy
 msgid "Some or All Data NOT deleted successfully!\\nPlease contact system administrator"
-msgstr ""
-"Sebagian atau semua data GAGAL dihapus!\n"
-"Hubungi admin sistem untuk pemecahannya"
+msgstr "ลบข้อมูลบางส่วนหรือทั้งหมดสำเร็จ! \\nโปรดติดต่อผู้ดูแลระบบ"
 
 #: admin/modules/bibliography/index.php:271
 msgid "All Fields"

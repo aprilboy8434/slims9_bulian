@@ -24,7 +24,7 @@
             </blockquote>
             <hr>
             <p class="text-grey-darker">
-              <?= $notes ? $notes : '<i>Description not available</i>'; ?>
+              <?= $notes ? $notes : '<i>ไม่มีคำอธิบาย</i>'; ?>
             </p>
             <hr>
 
@@ -131,7 +131,7 @@
           <?php echo showComment($biblio_id); ?>
           <?php if(!isset($_SESSION['mid']) && $sysconf['comment']['enable']) : ?>
               <hr>
-              <a href="index.php?p=member" class="btn btn-outline-primary">You must be logged in to post a comment</a>
+              <a href="index.php?p=member" class="btn btn-outline-primary">เข้าสู่ระบบเพื่อแสดงความคิดเห็น</a>
           <?php endif; ?>
         </div>
     </div>

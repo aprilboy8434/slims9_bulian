@@ -64,9 +64,9 @@
 <?php if ($sysconf['template']['classic_popular_collection']) : ?>
 <section class="mt-5 container">
     <h4 class=" mb-4">
-        Popular among our collections.
+        หมวดหมู่ยอดนิยม.
         <br>
-        <small class="subtitle-section">Our library's line of collection that have been favoured by our users were shown here. Look for them. Borrow them. Hope you also like them.</small>
+        <!-- <small class="subtitle-section">Our library's line of collection that have been favoured by our users were shown here. Look for them. Borrow them. Hope you also like them.</small> -->
     </h4>
     <div class="d-flex flex-wrap">
       <?php
@@ -117,9 +117,9 @@
 <?php if ($sysconf['template']['classic_new_collection']) : ?>
 <section class="mt-5 container">
     <h4 class=" mb-4">
-        New collections + updated.
+        หมวดหมู่ทึ่มีการอัพเดทล่าสุด.
         <br>
-        <small class="subtitle-section">These are new collections list. Hope you like them. Maybe not all of them are new. But in term of time, we make sure that these are fresh from our processing oven.</small>
+        <!-- <small class="subtitle-section">These are new collections list. Hope you like them. Maybe not all of them are new. But in term of time, we make sure that these are fresh from our processing oven.</small> -->
     </h4>
     <div class="d-flex flex-wrap">
       <?php
@@ -173,7 +173,7 @@
         <h4 class="mb-4">
             สุดยอดนักอ่านประจำปี.
             <br>
-            <small class="subtitle-section">Our best users, readers, so far. Continue to read if you want your name being mentioned here.</small>
+            <!-- <small class="subtitle-section">Our best users, readers, so far. Continue to read if you want your name being mentioned here.</small> -->
         </h4>
         <div class="flex flex-wrap">
           <?php
@@ -187,7 +187,7 @@
             $m .= '<img src="'.getImagePath($sysconf, $member_image, 'persons').'" class="img-fluid h-auto" alt="photo">';
             $m .= '</div>';
             $m .= '<h5 class="card-title text-center mt-3">' . $member['name'] . '<br><small class="text-grey-darker">' . $member['type'] . '</small></h5>';
-            $m .= '<p class="card-text text-center"><b>'.$member['total'].'</b> <span class="text-grey-darker">Loans</span><span style="width: 1px" class="inline-block h-4 mx-3 relative bg-grey align-middle"></span><b>'.$member['total_title'].'</b> <span class="text-grey-darker">Title</span></p>';
+            $m .= '<p class="card-text text-center"><b>'.$member['total'].'</b> <span class="text-grey-darker">ยืม</span><span style="width: 1px" class="inline-block h-4 mx-3 relative bg-grey align-middle"></span><b>'.$member['total_title'].'</b> <span class="text-grey-darker">เล่ม</span></p>';
             $m .= '</div>';
             $m .= '</div>';
             $m .= '</div>';

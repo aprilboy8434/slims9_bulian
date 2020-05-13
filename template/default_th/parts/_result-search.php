@@ -40,7 +40,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <h4 class="mb-2">Search Result</h4>
+                <h4 class="mb-2">ผลการค้นหา</h4>
               <?php
               echo '<div class=" mb-4 text-sm">' . $search_result_info . '</div><hr>';
               if ($sysconf['template']['classic_suggestion']) {

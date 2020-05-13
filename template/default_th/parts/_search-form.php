@@ -36,7 +36,7 @@
                             <a v-bind:class="{'btn-primary text-white': searchBy === 'author', 'btn-outline-secondary': searchBy !== 'author' }"
                                @click="searchOnClick('author')" class="btn mr-2 mb-2">ผู้แต่ง</a>
                             <a v-bind:class="{'btn-primary text-white': searchBy === 'subject', 'btn-outline-secondary': searchBy !== 'subject' }"
-                               @click="searchOnClick('subject')" class="btn mr-2 mb-2">หัวข้อ</a>
+                               @click="searchOnClick('subject')" class="btn mr-2 mb-2">หัวเรื่อง</a>
                             <a v-bind:class="{'btn-primary text-white': searchBy === 'isbn', 'btn-outline-secondary': searchBy !== 'isbn' }"
                                @click="searchOnClick('isbn')" class="btn mr-2 mb-2">ISBN/ISSN</a>
                             <button class="btn btn-light mr-2 mb-2" disabled>OR TRY</button>

@@ -25,7 +25,7 @@
 </section>
 
 <section class="mt-5 container">
-    <h4 class="text-secondary text-center text-thin mt-5 mb-4">เลือกหัวข้อที่คุณสนใจ</h4>
+    <h4 class="text-secondary text-center text-thin mt-5 mb-4">เลือกหัวเรื่องที่คุณสนใจ</h4>
     <ul class="topic d-flex flex-wrap justify-content-center px-0">
         <li class="d-flex justify-content-center align-items-center m-2">
             <a href="index.php?callnumber=8&search=search" class="d-flex flex-column">

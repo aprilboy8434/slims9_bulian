@@ -22,61 +22,71 @@
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=0&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/0-chemical.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Computer science, information & general works
+                            <!-- Computer science, information & general works -->
+                            วิทยาการคอมพิวเตอร์ สารสนเทศ และงานทั่วไป
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=1&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/1-memory.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Philosophy & psychology
+                            <!-- Philosophy & psychology -->
+                            ปรัชญาและจิตวิทยา
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=2&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/2-mosque.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Religion
+                            <!-- Religion -->
+                            ศาสนา
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=3&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/3-diploma.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Social sciences
+                            <!-- Social sciences -->
+                            สังคมศาสตร์
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=4&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/4-translation.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Language
+                            <!-- Language -->
+                            ภาษา
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=5&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/5-math.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Pure Science
+                            <!-- Pure Science -->
+                            วิทยาศาสตร์
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=6&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/6-blackboard.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Applied sciences
+                            <!-- Applied sciences -->
+                            เทคโนโลยี
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=7&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/7-quill.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Arts & recreation
+                            <!-- Arts & recreation -->
+                            ศิลปะและนันทนาการ
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=8&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/8-books.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            Literature
+                            <!-- Literature -->
+                            วรรณกรรม
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=9&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/9-return-to-the-past.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            History & geography
+                            <!-- History & geography -->
+                            ประวัติศาสตร์และภูมิศาสตร์
                         </a>
                     </li>
                 </ul>

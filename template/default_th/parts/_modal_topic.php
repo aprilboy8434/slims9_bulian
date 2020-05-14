@@ -50,43 +50,38 @@
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=4&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/4-translation.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <!-- Language -->
-                            ภาษา
+                            <?php echo __('Language'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=5&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/5-math.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <!-- Pure Science -->
-                            วิทยาศาสตร์
+                            <?php echo __('Pure Science'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=6&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/6-blackboard.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <!-- Applied sciences -->
-                            เทคโนโลยี
+                            <?php echo __('Applied sciences'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=7&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/7-quill.png'); ?>" width="80" class="mb-3 mx-auto"/>
                             <!-- Arts & recreation -->
-                            ศิลปะและนันทนาการ
+                            <?php echo __('Arts & recreation'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=8&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/8-books.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <!-- Literature -->
-                            วรรณกรรม
+                            <?php echo __('Literature'); ?>
                         </a>
                     </li>
                     <li class="d-flex justify-content-center align-items-center m-2">
                         <a href="index.php?callnumber=9&search=search" class="d-flex flex-column">
                             <img src="<?php echo assets('images/9-return-to-the-past.png'); ?>" width="80" class="mb-3 mx-auto"/>
-                            <!-- History & geography -->
-                            ประวัติศาสตร์และภูมิศาสตร์
+                            <?php echo __('History & geography'); ?>
                         </a>
                     </li>
                 </ul>

@@ -29,7 +29,7 @@
                 <ul class="list-reset">
                     <li><a class="text-light" href="index.php?p=libinfo"><?php echo __('Information'); ?></a></li>
                     <li><a class="text-light" href="index.php?p=services"><?php echo __('Services'); ?></a></li>
-                    <li><a class="text-light" href="index.php?p=librarian"><?php echo __('Librarian'); ?></a></li>
+                    <!-- <li><a class="text-light" href="index.php?p=librarian"><?php echo __('Librarian'); ?></a></li> -->
                     <li><a class="text-light" href="index.php?p=member"><?php echo __('Member Area'); ?></a></li>
                 </ul>
             </div>

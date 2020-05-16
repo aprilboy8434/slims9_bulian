@@ -23,10 +23,10 @@ $main_menus = [
     'text' => __('Help'),
     'url' => 'index.php?p=help'
   ],
-  'librarian' => [
-    'text' => __('Librarian'),
-    'url' => 'index.php?p=librarian'
-  ]
+  // 'librarian' => [
+  //   'text' => __('Librarian'),
+  //   'url' => 'index.php?p=librarian'
+  // ]
 ];
 ?>
 

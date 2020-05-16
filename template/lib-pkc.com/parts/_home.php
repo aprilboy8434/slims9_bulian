@@ -66,7 +66,7 @@
     <h4 class=" mb-4">
         <?php echo __('Popular among our collections.'); ?>
         <br>
-        <small class="subtitle-section">Our library's line of collection that have been favoured by our users were shown here. Look for them. Borrow them. Hope you also like them.</small>
+        <!-- <small class="subtitle-section">Our library's line of collection that have been favoured by our users were shown here. Look for them. Borrow them. Hope you also like them.</small> -->
     </h4>
     <div class="d-flex flex-wrap">
       <?php
@@ -119,7 +119,7 @@
     <h4 class=" mb-4">
         <?php echo __('New collections + updated.'); ?>
         <br>
-        <small class="subtitle-section">These are new collections list. Hope you like them. Maybe not all of them are new. But in term of time, we make sure that these are fresh from our processing oven.</small>
+        <!-- <small class="subtitle-section">These are new collections list. Hope you like them. Maybe not all of them are new. But in term of time, we make sure that these are fresh from our processing oven.</small> -->
     </h4>
     <div class="d-flex flex-wrap">
       <?php
@@ -173,7 +173,7 @@
         <h4 class="mb-4">
             <?php echo __('Top reader of the year.'); ?>
             <br>
-            <small class="subtitle-section">Our best users, readers, so far. Continue to read if you want your name being mentioned here.</small>
+            <!-- <small class="subtitle-section">Our best users, readers, so far. Continue to read if you want your name being mentioned here.</small> -->
         </h4>
         <div class="flex flex-wrap">
           <?php
@@ -217,8 +217,8 @@
             <p><?= $sysconf['template']['classic_map_desc']; ?></p>
             <p class="d-flex flex-row pt-2">
                 <a target="_blank" href="<?= $sysconf['template']['classic_fb_link'] ?>" class="btn btn-primary mr-2" name="button"><i class="fab fa-facebook-square text-white"></i></a>
-                <a target="_blank" href="<?= $sysconf['template']['classic_twitter_link'] ?>" class="btn btn-info mr-2" name="button"><i class="fab fa-twitter-square text-white"></i></a>
-                <a target="_blank" href="<?= $sysconf['template']['classic_youtube_link'] ?>" class="btn btn-danger mr-2" name="button"><i class="fab fa-youtube text-white"></i></a>
+                <!-- <a target="_blank" href="<?= $sysconf['template']['classic_twitter_link'] ?>" class="btn btn-info mr-2" name="button"><i class="fab fa-twitter-square text-white"></i></a>
+                <a target="_blank" href="<?= $sysconf['template']['classic_youtube_link'] ?>" class="btn btn-danger mr-2" name="button"><i class="fab fa-youtube text-white"></i></a> -->
             </p>
         </div>
     </div>

@@ -84,7 +84,7 @@ if (isset($_POST['itemID']) AND !empty($_POST['itemID']) AND isset($_POST['itemA
     <div class="sub_section">
       <div class="btn-group">
         <a href="<?php echo MWB; ?>master_file/item_code_pattern.php" class="btn btn-default"><?php echo __('Pattern List'); ?></a>
-        <a href="<?php echo MWB; ?>bibliography/pop_pattern.php?in=master" height="500px" class="s-btn btn btn-default notAJAX openPopUp notIframe" title="<?php echo __('Add new pattern') ?>"><?php echo __('Add new pattern'); ?></a>
+        <a href="<?php echo MWB; ?>bibliography/pop_pattern.php?in=master" height="500px" class="s-btn btn btn-default notAJAX openPopUp notIframe" title="<?php echo __('Add New Pattern') ?>"><?php echo __('Add New Pattern'); ?></a>
       </div>
     </div>
 </div>

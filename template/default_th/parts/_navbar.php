@@ -12,7 +12,7 @@ $main_menus = [
     'url' => 'index.php'
   ],
   'libinfo' => [
-    'text' => __('Library Information'),
+    'text' => __('Information'),
     'url' => 'index.php?p=libinfo'
   ],
   'news' => [

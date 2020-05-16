@@ -99,7 +99,7 @@ if (isset($_POST['logMeIn'])) {
             utility::writeLogs($dbs, 'staff', $username, 'Login', 'Login success for user '.$username.' from address '.$_SERVER['REMOTE_ADDR']);
             echo '<script type="text/javascript">';
             if ($sysconf['login_message']) {
-                echo 'alert(\''.__('Welcome to Library Automation, ').$logon->real_name.'\');';
+                echo 'alert(\''.__('Welcome to Library Automation,').$logon->real_name.'\');';
             }
             #echo 'location.href = \'admin/index.php\';';
             echo 'location.href = \''.SWB.'admin/index.php\';';

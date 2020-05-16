@@ -24,7 +24,7 @@
             </blockquote>
             <hr>
             <p class="text-grey-darker">
-              <?= $notes ? $notes : '<i>.__('Description not available').</i>'; ?>
+              <?= $notes ? $notes : '<i>'.__('Description not available').'</i>'; ?>
             </p>
             <hr>
 
